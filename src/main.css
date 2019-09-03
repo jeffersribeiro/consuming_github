@@ -1,0 +1,78 @@
+body {
+    background-image: url('https://github.githubassets.com/images/modules/open_graph/github-mark.png');
+    background-repeat: no-repeat;
+    background-position-x: 45%;
+    background-position-y: center;
+    background-size: 20%
+}
+
+.gitUser {
+    border-radius: 5px;
+    background-color: rgb(73, 73, 73);
+    height: 300px;
+    width: 400px;
+    float: right;
+    margin-top: 10%;
+    margin-right: 5%
+}
+
+.gitUser input {
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    height: 50px;
+    width: 300px;
+    background-color: white;
+    border:  solid 1px black;
+    margin-top: 10%;
+    margin-left: 10% ;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+
+}
+.gitUser button {
+    border-radius:7px; 
+    border: none;
+    height: 50px;
+    width: 200px;
+    background-color: skyblue;
+    color: white;
+    font-size: 30px;
+    margin-top: 20%;
+    margin-left: 24%;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.user{
+    float: left;
+    margin-top: 9%;
+    margin-left: 5%;
+    height: 100%;
+    width: 350px;
+    text-align: center;
+}
+.user ul {
+    list-style: none;   
+}
+.user ul img {
+    width:200px; 
+    height:200px;
+    margin-right: 50px;
+    border-radius: 6px
+}
+.user ul li {
+    font-size: 2em
+}
+.user > a {
+    text-decoration: none;
+    font-size: 1.4em ;
+    color : black
+
+}
+.user ul > li:nth-last-child(1){
+    margin-right: 20%
+}
